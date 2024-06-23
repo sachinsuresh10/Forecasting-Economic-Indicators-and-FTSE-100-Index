@@ -63,8 +63,8 @@ The datasets used for the analysis include:
    python REGRESSION_FTSE.py
 
 ### 3. Viewing Results
-The generated plots and forecasts will be saved in the results/ directory.
-Detailed analysis and comparisons can be found in the report/ directory.
+- The generated plots and forecasts will be saved in the results/ directory.
+- Detailed analysis and comparisons can be found in the report/ directory.
 ### Dependencies
 - Python 3.6+
 - pandas
