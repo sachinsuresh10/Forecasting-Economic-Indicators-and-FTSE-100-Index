@@ -66,10 +66,10 @@ The datasets used for the analysis include:
 The generated plots and forecasts will be saved in the results/ directory.
 Detailed analysis and comparisons can be found in the report/ directory.
 ### Dependencies
--Python 3.6+
--pandas
--numpy
--matplotlib
--seaborn
--statsmodels
--pmdarima
+- Python 3.6+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- statsmodels
+- pmdarima
