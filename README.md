@@ -43,33 +43,33 @@ The datasets used for the analysis include:
 - **Scripts**: 
     - `REGRESSION_FTSE.py`
     
+## Conclusion
+- Exponential smoothing with multiplicative seasonality provided the most accurate forecasts for economic indicators.
+- The regression model showed reasonable performance in predicting the FTSE 100 index.
+
 ## Instructions
-
-### 1. Data Preparation
-- Ensure the datasets are placed in the `data/` directory.
-- Modify the file paths in the scripts if necessary to match your directory structure.
-
-### 2. Running the Scripts
-- Install the required Python libraries:
-  ```sh
-  pip install pandas numpy matplotlib seaborn statsmodels pmdarima
-
-python scripts/ExponentialSmoothing_K54D.py
-python scripts/ExponentialSmoothing_EAFV.py
-python scripts/ExponentialSmoothing_K226.py
-python scripts/ExponentialSmoothing_JQ2J.py
-python scripts/ARIMA_SARIMA.py
-python scripts/REGRESSION_FTSE.py
-
+1. **Clone the repository:**
+   ```bash
+   git clone <repository_url>
+   ```
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run the scripts:**
+   ```bash
+   python ExponentialSmoothing_K54D.py
+   python ARIMA_SARIMA.py
+   python REGRESSION_FTSE.py
 
 ### 3. Viewing Results
 The generated plots and forecasts will be saved in the results/ directory.
 Detailed analysis and comparisons can be found in the report/ directory.
 ### Dependencies
-Python 3.6+
-pandas
-numpy
-matplotlib
-seaborn
-statsmodels
-pmdarima
+-Python 3.6+
+-pandas
+-numpy
+-matplotlib
+-seaborn
+-statsmodels
+-pmdarima
